@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Syne:wght@400;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    background: #1b2029;
+    color: white;
+    min-height: 100vh;
+}
+
+header{
+position: fixed;
+display: flex;
+width: 100%;
+height: 75px;
+background: #161923;
+flex-wrap: wrap;
+justify-content: center;
+justify-content: space-around;
+box-shadow: 0px 1px 4px #8880FE;
+
+}
+
+header span{
+font-size: 21px;
+margin-left: 30px;
+padding-top: 20px
+
+}
+
+header .itens{
+padding-top: 20px;
+}
+
+.itens span{
+  cursor: pointer;
+}
+
+.itens span:hover{
+  text-decoration: underline #8880FE;
+}
+
+
+header img{
+width: 110px;
+padding-top: 10px
+}
+
+
+.banner{
+background-color: #161923;
+width: 95%;
+height: 400px;
+margin-left: 31px;
+border-radius: 10px;
+padding-top: 68px;
+}
+
+.banner1{
+text-align: center;
+padding-top: 80px;
+}
+
+.banner1 h2{
+font-size: 35px;
+}
+
+.banner p{
+color: rgb(218, 218, 218);
+}
+
+.banner button{
+font-size: 17px;
+margin-top: 10px;
+width: 220px;
+height: 35px;
+background:#8880FE;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+color: white;
+}
+
+.banner button:hover{
+  transition: 0.3s;
+  background-color:#5851c2 ;
+}
+
+.ofertas{
+display: flex;
+margin-right: 35px;  
+}
+
+.ofertas1{
+height: 325px;
+width:30%;
+background: #161923;
+margin-top: 50px;
+margin-left: 31px;
+border-radius: 10px;
+justify-content: center;
+box-shadow: 5px 5px #8880FE;   
+}
+
+.ofertas1 h4{
+font-size: 23px;
+text-align: center;   
+}
+
+
+.planos{
+background: #161923;
+margin-top: 50px;
+width: 100%;
+height: 1010px;
+}
+
+.planostemplate{
+  margin-top: 25px;
+}
+
+.ofertas1 p{
+  margin-left: 5px;
+}
+
+.enunciado{
+  text-align: center;
+  padding-top: 120px;
+  font-size: 24px;
+}
+
+.enunciado p{
+  color: rgb(182, 182, 182);
+}
+
+.planinhos{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.planos1{
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+.planos .planos1{
+  height: 500px;
+  padding: 25px;
+  margin-right: 20px;
+  margin-top: 100px;
+  border: 1px #706d9c solid;
+  border-radius: 20px;
+  
+
+}
+
+
+.planos1 h3{
+  font-size: 26px; 
+}
+
+.botaorecomend{
+  padding-top: 7px;
+}
+
+.recomend{
+  height: 1px;
+  font-size: 15px;
+  margin-left: 10px;
+  background-color:#8880FE;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+
+.planos2{
+  display: flex;
+  flex-wrap: wrap;
+  height: 550px;
+  padding: 25px;
+  margin-right: 20px;
+  margin-top: 100px;
+  border: 1px #706d9c solid;
+  border-radius: 20px;
+  background:#4b478134 ;
+}
+
+.planos2 h3{
+  font-size: 26px; 
+}
+
+.botaoassinar1{
+  width: 200px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color:#8880FE;
+  color:white;
+  transition: 0.8s;
+}
+
+.botaoassinar1:hover{
+  background: #4b4596;
+}
+
+
+.planos2 p{
+  font-size: 17px;
+}
+
+
+
+.formu{
+  background: #1b2029;
+  height: 950px;
+}
+
+form{
+  margin-top: -120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px #706d9c solid;
+  width: 32%;
+  border-radius: 10px;
+  height: 435px;
+  margin-left: 720px;
+}
+
+form h2{
+  margin-top: 35px;
+}
+
+
+form input{
+  margin-top: 30px;
+  width: 85%;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+
+select{
+  width: 150px;
+  height: 35px;
+  font-size: 14px;
+  background: #ffffff;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+
+ form button{
+  width: 60%;
+  margin-top: 15px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color:#625ea1;
+  font-size: 24px;
+  color: white;
+  transition: 0.3s;
+ }
+
+ form button:hover{
+  background-color: #5a54ac;
+ }
+
+.frase h2{
+  font-size: 34px;
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.frase p{
+  width: 36%;
+  margin-left: 70px;
+  text-align: center;
+}
+
+  
+
