@@ -294,19 +294,22 @@ select{
   text-align: center;
 }
 
+.nome{
+  font-size: 10px;
+ }
 
 @media screen and (max-width: 768px){
   header span{
     font-size: 15px;
     margin-left: 5px;
-    margin-right: 10px;
+    margin-right: 5px;
 
   }
 
   header img{
-    width: 70px;
+    width: 50px;
     padding-top: 20px;
-    margin-left: 5px;
+    margin-left: 2px;
   }
 
   .banner{
@@ -318,7 +321,7 @@ select{
 
 
   .banner1 h2{
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .banner1{
@@ -329,18 +332,22 @@ select{
       display: flex;
       flex-wrap: wrap;
       margin-right: 35px; 
-      margin-left: 18px; 
+      margin-left: 15px; 
+      
       }
 
     .ofertas1{
       height: 250px;
-      width:45%;
+      width:80%;
       background: #161923;
       margin-top: 20px;
-      margin-left: 18px;
+      margin-left: -2px;
       border-radius: 10px;
-      box-shadow: 5px 5px #8880FE;   
-      margin-bottom: 10px;
+      box-shadow: 2px 2px #8880FE;   
+      margin: 0px auto;
+      margin-top: 35px;
+      margin-bottom: 25px;
+      
       
 
     }
@@ -351,7 +358,7 @@ select{
       font-size: 20px;
     }
 
-   
+    
 
     .planinhos{
       display: flex;
@@ -359,7 +366,40 @@ select{
       width: 80%;
       margin: 0 auto;
       margin-top: -80px;
-      margin-left: 60px;
+      margin-left: 45px;
+    }
+
+    .recomend {
+      height: 1px;
+      font-size: 10px;
+      background-color:#8880FE;
+      padding: 3px;
+      border-radius: 10px;
+    }
+
+
+    .planos2 .recomend{
+      height: 1px;
+      font-size: 10px;
+      margin-left: 10px;
+      background-color:#8880FE;
+      padding: 3px;
+      border-radius: 10px;
+
+
+    }
+
+    .planos1 .recomend{
+      height: 1px;
+      font-size: 15px;
+      margin-left: 10px;
+      background-color:#8880FE;
+      
+    }
+
+  
+    .planos1 h3{
+      font-size: 20px;
     }
     
     .planos{
@@ -399,7 +439,7 @@ select{
         width: 80%;
         border-radius: 10px;
         height: 435px;
-        margin-left: 50px
+        margin-left: 35px
       }
 
       form input{
@@ -409,11 +449,12 @@ select{
         border: none;
         border-radius: 10px;
         padding-left: 10px;
-        font-size: 15px;
+        font-size: 18px;
       }
 
       form h2{
         font-size: 23px;
+        text-align: center;
       }
       
 }

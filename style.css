@@ -78,17 +78,25 @@ form .botao:hover{
 
 
 @media screen and (max-width: 768px){
+
+    main{
+        margin-top: -65px;
+    }
+
+
     main h1{
         font-size: 30px;
     }
 
     .imgmedias img{
-        margin: 0px 30px;
+        margin: 10px 30px;
     }
 
     form input{
-        margin-left: 30px;
+        margin-left: 15px;
         width: 90%;
+        height: 50px;
+        font-size: 17px;
     }
     
     form label span{
