@@ -298,12 +298,15 @@ select{
 @media screen and (max-width: 768px){
   header span{
     font-size: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
 
   }
 
   header img{
     width: 70px;
     padding-top: 20px;
+    margin-left: 5px;
   }
 
   .banner{
@@ -315,7 +318,7 @@ select{
 
 
   .banner1 h2{
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .banner1{
@@ -325,17 +328,19 @@ select{
     .ofertas{
       display: flex;
       flex-wrap: wrap;
-      margin-right: 35px;  
+      margin-right: 35px; 
+      margin-left: 18px; 
       }
 
     .ofertas1{
-      height: 300px;
-      width:44%;
+      height: 250px;
+      width:45%;
       background: #161923;
       margin-top: 20px;
-      margin-left: 26px;
+      margin-left: 18px;
       border-radius: 10px;
       box-shadow: 5px 5px #8880FE;   
+      margin-bottom: 10px;
       
 
     }
@@ -343,7 +348,7 @@ select{
     .enunciado{
       text-align: center;
       padding-top: 20px;
-      font-size: 24px;
+      font-size: 20px;
     }
 
    
@@ -370,16 +375,16 @@ select{
       }
 
       .frase h2{
-        font-size: 27px;
+        font-size: 23px;
         margin-top: 60px;
         margin-left: 5px;
         text-align: center;
       }
       
       .frase p{
-        width: 100%;
+        width: 90%;
         font: 24px ;
-        margin-left: 1%;
+        margin-left: 5%;
         margin-top: 10px;
         
         
@@ -390,7 +395,7 @@ select{
         display: flex;
         align-items: center;
         flex-direction: column;
-        border: 1px #6f6c9b solid;
+        border: 1px #706d9b solid;
         width: 80%;
         border-radius: 10px;
         height: 435px;
@@ -405,6 +410,10 @@ select{
         border-radius: 10px;
         padding-left: 10px;
         font-size: 15px;
+      }
+
+      form h2{
+        font-size: 23px;
       }
       
 }
