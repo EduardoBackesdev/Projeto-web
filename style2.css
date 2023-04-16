@@ -459,7 +459,6 @@ select{
     
   }
 
-
   .banner{
     width: 90%;
     margin-left: 4.50%;
@@ -506,7 +505,9 @@ select{
       font-size: 20px;
     }
 
-    
+    .planos2 .botaorecomend .recomend{
+      font-size: 15px;
+    }
 
     .planinhos{
       display: flex;
