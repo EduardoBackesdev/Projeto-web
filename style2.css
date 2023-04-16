@@ -15,6 +15,18 @@ body {
     min-height: 100vh;
 }
 
+.menu-mobile{
+  padding-top: 17px;
+}
+
+.menu-mobile div{
+  width: 32px;
+  height: 2px;
+  background: #ffff;
+  margin: 8px;
+  display: none;
+}
+
 header{
 position: fixed;
 display: flex;
@@ -25,8 +37,35 @@ flex-wrap: wrap;
 justify-content: center;
 justify-content: space-around;
 border-bottom: 1px solid #8880FE;
-
 }
+
+.nav-bar{
+  cursor: pointer;
+  padding-top: 18px;
+  display: none;
+}
+.nav-bar div{
+  width: 32px;
+  height: 2px;
+  background: white;
+  margin: 8px;
+}
+.itens-menu span{
+  font-size: 17px;
+}
+
+.itens-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 1000px;
+  background-color: #161923;
+  border-bottom: 1px #4b4596 solid;
+  display: none;
+}
+
+
 
 header span{
 font-size: 21px;
@@ -37,6 +76,7 @@ padding-top: 20px
 
 header .itens{
 padding-top: 20px;
+margin-left: 10px;
 }
 
 .itens span{
@@ -50,17 +90,12 @@ padding-top: 20px;
 
 header img{
 width: 110px;
-padding-top: 10px
+padding-top: 10px;
+margin-left: 30px;
 }
 
 
 .banner{
-background-image: url(https://assets-blog.hostgator.com.br/wp-content/uploads/2017/12/criar-site-evento-blog-v01.webp);
-background-repeat: no-repeat;
-background-position: right;
-background-position-y: 80%;
-background-position-x: -20%;
-background-color: #02a4bb;
 width: 95%;
 height: 400px;
 margin-left: 31px;
@@ -136,10 +171,6 @@ margin-right: 35px;
   border-radius: 10px;
   
 }
-
-
-
-
 
 .ofertas1{
 height: 325px;
@@ -343,19 +374,91 @@ select{
   font-size: 10px;
  }
 
-@media screen and (max-width: 768px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 768px){
   header span{
     font-size: 15px;
     margin-left: 5px;
-    margin-right: 5px;
-
+    display: none;
   }
 
   header img{
-    width: 50px;
-    padding-top: 20px;
-    margin-left: 2px;
+    width: 70px;
+    margin-left: px;
+    padding-top: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    
   }
+
 
   .banner{
     width: 90%;
@@ -501,5 +604,14 @@ select{
         font-size: 23px;
         text-align: center;
       }
-      
-}
+
+      .menu-mobile{
+        padding-left: 200px;
+      }
+
+      .menu-mobile div{
+        display: block;
+        
+        
+      }
+    }
