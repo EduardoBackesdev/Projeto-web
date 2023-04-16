@@ -24,7 +24,7 @@ background: #161923;
 flex-wrap: wrap;
 justify-content: center;
 justify-content: space-around;
-box-shadow: 0px 1px 4px #8880FE;
+border-bottom: 1px solid #8880FE;
 
 }
 
@@ -55,17 +55,23 @@ padding-top: 10px
 
 
 .banner{
-background-color: #161923;
+background-image: url(https://assets-blog.hostgator.com.br/wp-content/uploads/2017/12/criar-site-evento-blog-v01.webp);
+background-repeat: no-repeat;
+background-position: right;
+background-position-y: 80%;
+background-position-x: -20%;
+background-color: #02a4bb;
 width: 95%;
 height: 400px;
 margin-left: 31px;
 border-radius: 10px;
 padding-top: 68px;
+border: 1px solid #8880FE;
 }
 
 .banner1{
 text-align: center;
-padding-top: 80px;
+padding-top: 90px;
 }
 
 .banner1 h2{
@@ -73,7 +79,7 @@ font-size: 35px;
 }
 
 .banner p{
-color: rgb(218, 218, 218);
+color: white;
 }
 
 .banner button{
@@ -83,6 +89,7 @@ width: 220px;
 height: 35px;
 background:#8880FE;
 border: none;
+border: 1px black solid;
 border-radius: 10px;
 cursor: pointer;
 color: white;
@@ -98,6 +105,42 @@ display: flex;
 margin-right: 35px;  
 }
 
+.ofertas1 .a1 img{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 65px;
+  border-radius: 10px;
+}
+
+
+.ofertas1 .a2 img{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 30px;
+  border-radius: 10px;
+  
+}
+
+.ofertas1 .a3 img{
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 60px;
+  border-radius: 10px;
+  
+}
+
+.ofertas1 .a4 img{
+  width: 70%;
+  margin-left: 17%;
+  margin-top: 15px;
+  border-radius: 10px;
+  
+}
+
+
+
+
+
 .ofertas1{
 height: 325px;
 width:30%;
@@ -106,12 +149,13 @@ margin-top: 50px;
 margin-left: 31px;
 border-radius: 10px;
 justify-content: center;
-box-shadow: 5px 5px #8880FE;   
+border:1px solid #8880FE;   
 }
 
 .ofertas1 h4{
 font-size: 23px;
 text-align: center;   
+padding-top: 15px;
 }
 
 
@@ -128,6 +172,7 @@ height: 1010px;
 
 .ofertas1 p{
   margin-left: 5px;
+  padding-top: 10px;
 }
 
 .enunciado{
